@@ -16,7 +16,7 @@ This is a Telegram bot designed to handle cleaning checklists for various locati
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your_username/telegram-bot.git
+    git clone https://github.com/evgenijmartynuk07/telegram_bot.git
     ```
 
 2. create virtual & Install dependencies:
