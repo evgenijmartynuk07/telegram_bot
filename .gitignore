@@ -1,7 +1,0 @@
-# created by virtualenv automatically
-lib
-.env
-bin
-.idea
-*__pycache__/
-
