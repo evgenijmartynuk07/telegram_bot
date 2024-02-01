@@ -1,0 +1,1 @@
+from aiogram import Dispatcherfrom aiogram.types import BotCommandasync def set_commands(dp: Dispatcher):    bot_command = [        BotCommand(            command='start',            description=f'Run bot'),        BotCommand(            command='help',            description='Command help'),    ]    await dp.bot.set_my_commands(bot_command)

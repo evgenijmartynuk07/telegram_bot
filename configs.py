@@ -1,0 +1,1 @@
+from os import getenvBOT_TOKEN = getenv(    'BOT_TOKEN',    default='6933543230:AAEyhpV7j2DrT0UObw9wFqW_Cav5bwzfUIQ')OPENAI_KEY = getenv(    'OPENAI_KEY',    default='')

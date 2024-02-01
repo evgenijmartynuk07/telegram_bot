@@ -11,6 +11,7 @@ This is a Telegram bot designed to handle cleaning checklists for various locati
 - **Report Generation**: Once all checklist items are completed, the bot generates a report summarizing the cleaning status for each location.
 - **OpenAI Integration**: The generated report is sent to OpenAI for analysis, providing users with analyzed feedback.
 
+
 ## Installation
 
 1. Clone the repository:
@@ -22,7 +23,7 @@ This is a Telegram bot designed to handle cleaning checklists for various locati
 2. create virtual & Install dependencies:
 
     ```bash
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
     ```
@@ -37,7 +38,7 @@ This is a Telegram bot designed to handle cleaning checklists for various locati
 4. Run the bot:
 
     ```bash
-    python telegram_bot.py
+    python bot.py
     ```
 
 ## Usage

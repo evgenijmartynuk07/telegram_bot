@@ -1,0 +1,1 @@
+from aiogram.dispatcher.filters import Filterfrom aiogram.types import CallbackQueryclass SeparatorFilter(Filter):    def __init__(self, separator: str):        self.separator = separator    async def check(self, callback_query: CallbackQuery):        if callback_query.data.startswith(self.separator):            return True        else:            return False
